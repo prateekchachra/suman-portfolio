@@ -6,7 +6,9 @@ import headerImg from '../../assets/img/header-img.svg'
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 import { HashLink } from 'react-router-hash-link';
-
+import {
+    BrowserRouter as Router
+  } from "react-router-dom";
 
 const toRotate = ["Graphic Designer", "Presentation Designer", "Story Developer"]
 
@@ -46,6 +48,7 @@ export const Banner = () => {
         }
     }
     return (
+        <Router>
         <section className="banner" id="home">
             <Container>
                 <Row className="align-item-center">
@@ -68,5 +71,6 @@ export const Banner = () => {
                 </Row>
             </Container>
         </section>
+        </Router>
     )
 }
