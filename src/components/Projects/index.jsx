@@ -1,3 +1,4 @@
+import React from 'react';
 import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
 
 import colorSharp from '../../assets/img/color-sharp2.png'
