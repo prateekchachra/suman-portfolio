@@ -5,6 +5,7 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImg from '../../assets/img/header-img.svg'
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
+import { HashLink } from 'react-router-hash-link';
 
 
 const toRotate = ["Graphic Designer", "Presentation Designer", "Story Developer"]
@@ -55,7 +56,9 @@ export const Banner = () => {
                         <span className="tagline"> Welcome to Suman's Portfolio</span>
                         <h1 className="txt-rotate">{'Hi I am Suman Chachra '}<span className="wrap">{text}</span></h1>
                         <p>I am a Graphic Designer based in <span className="text-bold">New Delhi, India</span> and have made various designs for platforms like book covers, event posters, children stories and many more</p>
-                        <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={24}/> </button>
+                        <HashLink to='#connect'>
+                        <button>Let's Connect <ArrowRightCircle size={24}/> </button>
+                        </HashLink>
                         </div>)}
                         </TrackVisibility>
                     </Col>
