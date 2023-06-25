@@ -14,16 +14,16 @@ import promo3 from '../assets/img/promotional/promo3.jpeg'
 
 
 export const discountProjects = [
-    {   title: "Karwa Chauth Special Poster for a Shop",
-        description: "Discount Promotional Poster for a Saree Sale",
+    {   title: "Karwa Chauth Special Flyer for a Shop",
+        description: "Discount Promotional Flyer for a Saree Sale",
         imgUrl: promo1
     },
-    {   title: "House Hunting Poster for a Real Estate Agency",
-        description: "[Removed Details] House Promotional Poster",
+    {   title: "House Hunting Flyer for a Real Estate Agency",
+        description: "[Removed Details] House Promotional Flyer",
         imgUrl: promo2
     },
-    {   title: "Jewellery Sale Poster",
-        description: "Discount Poster for a Jewellery Shop",
+    {   title: "Jewellery Sale Flyer",
+        description: "Discount Flyer for a Jewellery Shop",
         imgUrl: promo3
     },
 ]

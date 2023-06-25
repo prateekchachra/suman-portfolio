@@ -32,7 +32,7 @@ export const Projects = () => {
                            <Nav.Link eventKey="second">Event Posters</Nav.Link>
                     </Nav.Item>
                         <Nav.Item>
-                           <Nav.Link eventKey="third">Discount Posters</Nav.Link>
+                           <Nav.Link eventKey="third">Discount Flyer</Nav.Link>
                     </Nav.Item>
                       </Nav>
                       <Tab.Content>
