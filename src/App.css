@@ -630,6 +630,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .pdf-container .react-pdf__Page {
@@ -646,4 +647,33 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .pdf-container .react-pdf__message {
   padding: 20px;
   color: white;
+}
+
+.pdf-controls-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 40px);
+  width: 80px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.52);
+  -moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.52);
+  box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.52);
+}
+
+.arrow-bar {
+  cursor: pointer;
+  color: #000;
+}
+.arrow-bar-disabled {
+  color: #a2a2a2;
+  cursor: not-allowed;
+}
+
+.page-text {
+  margin: 0 3px;
+  color: #000;
 }
