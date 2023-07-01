@@ -86,7 +86,7 @@ nav.navbar {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 9999;
+  z-index: 100;
   transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
@@ -420,6 +420,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 .proj-imgbx::before {
   content: "";

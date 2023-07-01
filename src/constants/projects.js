@@ -3,9 +3,11 @@ import book2 from '../assets/img/books/book2.jpeg'
 import book3 from '../assets/img/books/book3.jpeg'
 import book4 from '../assets/img/books/book4.jpeg'
 import book5 from '../assets/img/books/book5.jpeg'
+import book6 from '../assets/img/books/book6.jpeg'
 
 import event1 from '../assets/img/events/event1.jpeg'
 import event2 from '../assets/img/events/event2.jpeg'
+import event3 from '../assets/img/events/event3.jpeg'
 
 import promo1 from '../assets/img/promotional/promo1.jpeg'
 import promo2 from '../assets/img/promotional/promo2.jpeg'
@@ -40,13 +42,17 @@ export const bookProjects = [
         description: "Design for Internal Pages inside a Journal Entry Book",
         imgUrl: book3
     },
+    {   title: "Coloring Book Cover",
+        description: "Design for the Cover of a Coloring Book",
+        imgUrl: book4
+    },
     {   title: "Children's Environmental Study Book Cover",
         description: "Design for the Cover of a Children's Book",
         imgUrl: book5
     },
-    {   title: "Coloring Book Cover",
-        description: "Design for the Cover of a Coloring Book",
-        imgUrl: book4
+    {   title: "Children's Environmental Study Book Cover ||",
+        description: "Design for the Cover of a Children's Book",
+        imgUrl: book6
     },
 ]
 export const eventProjects = [
@@ -57,5 +63,9 @@ export const eventProjects = [
     {   title: "Poster for Book Fair inside a mall",
         description: "Book Fair Advertisement Flyer",
         imgUrl: event2
+    },
+    {   title: "Poster for a Business Conference",
+        description: "Popular Business Conference Poster",
+        imgUrl: event3
     },
 ]
