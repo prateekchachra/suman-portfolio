@@ -4,6 +4,8 @@ import book3 from '../assets/img/books/book3.jpeg'
 import book4 from '../assets/img/books/book4.jpeg'
 import book5 from '../assets/img/books/book5.jpeg'
 import book6 from '../assets/img/books/book6.jpeg'
+import book7 from '../assets/pdf/story0.pdf'
+import book8 from '../assets/pdf/story1.pdf'
 
 import event1 from '../assets/img/events/event1.jpeg'
 import event2 from '../assets/img/events/event2.jpeg'
@@ -53,6 +55,14 @@ export const bookProjects = [
     {   title: "Children's Environmental Study Book Cover ||",
         description: "Design for the Cover of a Children's Book",
         imgUrl: book6
+    },
+    {   title: "Story Header Cover",
+        description: "Design for the Cover of a Story Header",
+        imgUrl: book7
+    },
+    {   title: "Story PDF",
+        description: "Design for a Children's Story",
+        imgUrl: book8
     },
 ]
 export const eventProjects = [
