@@ -25,7 +25,7 @@ export default function PdfViewer({file, isPreview}) {
   const onClickForward = () => currentPage === numPages ? null : setCurrentPage(currentPage + 1)
   return (
     <div className='pdf-container'>
-          <Document file={file} onLoadSuccess={onDocumentLoadSuccess} options={options}>
+          <Document file={file} onLoadSuccess={onDocumentLoadSuccess} onLoadError={console.error} options={options}>
             {isPreview ?
               (
               <>
