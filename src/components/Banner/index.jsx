@@ -67,13 +67,13 @@ export const Banner = () => {
                     </span>
                     <h1 className="txt-rotate">
                       {"Hi I am Suman Chachra "}
-                      <span className="wrap">{text}</span>
+                      <span className="wrap" >{text}</span>
                     </h1>
                     <p>
-                      I am a Graphic Designer based in{" "}
+                      Suman Chachra is a Graphic Designer based in{" "}
                       <span className="text-bold">New Delhi, India</span> and
                       have made various designs for platforms like book covers,
-                      event posters, children stories and many more
+                      event posters, children stories and many more. This is her Portfolio
                     </p>
                     <HashLink to="#connect">
                       <button>
