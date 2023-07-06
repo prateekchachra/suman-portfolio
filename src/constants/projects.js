@@ -7,6 +7,7 @@ import book7 from "../assets/img/books/book7.jpeg";
 
 import book8 from "../assets/pdf/story0.pdf";
 import book9 from "../assets/pdf/story1.pdf";
+import book10 from "../assets/pdf/story2.pdf";
 
 import event1 from "../assets/img/events/event1.jpeg";
 import event2 from "../assets/img/events/event2.jpeg";
@@ -72,9 +73,14 @@ export const bookProjects = [
     imgUrl: book8,
   },
   {
-    title: "Story PDF",
+    title: "Milkmaid Story [PDF]",
     description: "Design for a Children's Story",
     imgUrl: book9,
+  },
+  {
+    title: "Sage Story [PDF]",
+    description: "Design for a Children's Story",
+    imgUrl: book10,
   },
 ];
 export const eventProjects = [
