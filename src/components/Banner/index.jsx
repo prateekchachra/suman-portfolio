@@ -85,7 +85,7 @@ export const Banner = () => {
               </TrackVisibility>
             </Col>
             <Col xs={12} md={6} xl={5}>
-              <img src={headerImg} alt="Header Image" />
+              <img src={headerImg} alt="Header" />
             </Col>
           </Row>
         </Container>
