@@ -17,7 +17,7 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
       <div className="proj-imgbx" onClick={handleShow}>
         {renderPreview(false)}
         <div className="proj-txtx">
-          <h4>{title}</h4>
+          <h6>{title}</h6>
           <span>{description}</span>
         </div>
       </div>
