@@ -4,6 +4,8 @@ import book3 from "../assets/img/books/book3.jpeg";
 import book4 from "../assets/img/books/book4.jpeg";
 import book6 from "../assets/img/books/book6.jpeg";
 import book7 from "../assets/img/books/book7.jpeg";
+import book11 from "../assets/img/books/book8.jpg";
+import book12 from "../assets/img/books/book9.jpg";
 
 import book8 from "../assets/pdf/story0.pdf";
 import book9 from "../assets/pdf/story1.pdf";
@@ -14,6 +16,8 @@ import event2 from "../assets/img/events/event2.jpeg";
 import event3 from "../assets/img/events/event3.jpeg";
 import event4 from "../assets/img/events/event4.jpeg";
 import event5 from "../assets/img/events/event5.jpeg";
+import event6 from "../assets/img/events/event6.jpg";
+import event7 from "../assets/img/events/event7.jpg";
 
 import promo1 from "../assets/img/promotional/promo1.jpeg";
 import promo2 from "../assets/img/promotional/promo2.jpeg";
@@ -68,6 +72,16 @@ export const bookProjects = [
     imgUrl: book7,
   },
   {
+  title: "Story Book Cover",
+    description: "Design for the Cover of a Children's Story Book",
+    imgUrl: book12,
+  },
+  {
+    title: "Coloring Book Cover",
+    description: "Design for the Cover of a Coloring Book",
+    imgUrl: book11,
+  },
+  {
     title: "Story Header Cover",
     description: "Design for the Cover of a Story Header",
     imgUrl: book8,
@@ -85,14 +99,14 @@ export const bookProjects = [
 ];
 export const eventProjects = [
   {
-    title: "Poster for Expresando - A Spanish Theater",
-    description: "Poster for a theater event",
-    imgUrl: event1,
-  },
-  {
     title: "Poster for Book Fair inside a mall",
     description: "Book Fair Advertisement Flyer",
     imgUrl: event2,
+  },
+  {
+    title: "Poster for Expresando - A Spanish Theater",
+    description: "Poster for a theater event",
+    imgUrl: event1,
   },
   {
     title: "Poster for a Business Conference",
@@ -108,5 +122,15 @@ export const eventProjects = [
     title: "Poster for a Visual Art Exhibition",
     description: "Visual Arts Exhibition Poster with QR Code Registration",
     imgUrl: event5,
+  },
+  {
+    title: "Poster for a Business Webinar",
+    description: "Poster for an online Webinar event",
+    imgUrl: event6,
+  },
+  {
+    title: "Poster for a Live Business Webinar",
+     description: "Poster for an online Webinar event",
+    imgUrl: event7,
   },
 ];
