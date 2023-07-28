@@ -18,8 +18,7 @@ import event4 from "../assets/img/events/event4.jpeg";
 import event5 from "../assets/img/events/event5.jpeg";
 import event6 from "../assets/img/events/event6.jpg";
 import event7 from "../assets/img/events/event7.jpg";
-import event8 from "../assets/img/events/event8.jpg";
-import event9 from "../assets/img/events/event9.jpg";
+import event8 from "../assets/img/events/event8.jpeg";
 
 import promo1 from "../assets/img/promotional/promo1.jpeg";
 import promo2 from "../assets/img/promotional/promo2.jpeg";
@@ -139,10 +138,5 @@ export const eventProjects = [
     title: "Poster for a Live Business Webinar",
      description: "Poster for an online Webinar event",
     imgUrl: event7,
-  },
-  {
-    title: "Poster for a Live Business Webinar (2nd iteration)",
-     description: "Poster for an online Webinar event",
-    imgUrl: event9,
-  },
+  }
 ];
